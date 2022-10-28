@@ -15,7 +15,7 @@ public class ListasJava {
 		//lista1.add(new Boton(" "," "));
 		lista1.add("que");
 		lista1.add("tal");
-		
+	
 		//en el arraylist puedes agregar una pocision donde quieras.
 		lista1.add(1, "Hoy es viernes por fin");
 		lista1.set(0,"esto sustituido");
