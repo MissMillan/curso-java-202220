@@ -37,7 +37,7 @@ public class ListasJava {
 		System.out.println(lista1.get(2));
 		//con esto puedo sustituir
 		System.out.println("hola");
-		
+		System.out.println("cambio nuevo");
 		
 	}
 }
