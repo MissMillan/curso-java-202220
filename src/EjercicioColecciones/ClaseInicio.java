@@ -152,16 +152,27 @@ public class ClaseInicio {
 		System.out.println("==========Los estudiantes que han reprobado Lengua : =============");
 		for (Estudiante e : estudiantes) {
 			for (Asignatura a : e.getAsignaturasArray()) {
-				if (a.getNombre().equals("Lengua")) {
-					if (a.getNota() < 5) {
+				if (a.getNombre().equals("Lengua")&& a.getNota() < 5) {
+					
 						estudiantes.remove(e);
-					}
+					
 				}
 
 			}
 		}
 
 	
+		//-------------------------------
+		   Iterator<Estudiante> iter = estudiantes.iterator();
+		   
+	        // Displaying the values
+	        // after iterating through the list
+	        System.out.println("\nThe iterator values"
+	                           + " of list are: ");
+	        while (iter.hasNext()) {
+	       
+	        }
 		 	
 	}
+	
 }
