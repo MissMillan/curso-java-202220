@@ -18,6 +18,10 @@ public class Asignatura {
 		this.nota = nota;
 	}
 	
+	public Asignatura(String nombre) {
+		super();
+		this.nombre = nombre;
+	}
 	public Asignatura(String nombre, double nota) {
 		super();
 		this.nombre = nombre;
